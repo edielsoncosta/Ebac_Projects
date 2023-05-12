@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    background-color: black;
+}
+
+#cabecalho h1{
+    text-align: center;
+    color: rgb(62, 49, 110);
+}
+
+li{
+    list-style: none;
+    text-align: right;
+    margin-right: 490px;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+    margin: 15px;
+}
+#sporte{
+    display: flex;
+}
+.unico{
+    text-align: center;
+    color: gold;
+}
+#economiaa{
+    display: flex;
+}
+#entretem{
+    display: flex;
+}
+#tecnologia{
+    display: flex;
+}
+h5{
+    color:red;
+    margin-left: 35px;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    border: solid 2px;
+    border-radius: 12px;
+}
