@@ -8,6 +8,7 @@ body{
 #cabecalho h1{
     text-align: center;
     color: rgb(62, 49, 110);
+    background-color: aqua;
 }
 
 li{
@@ -28,14 +29,43 @@ img{
     text-align: center;
     color: gold;
 }
+.esporte{
+    background-color: brown;
+}
+.esporte a{
+    border: solid 2px;
+    background-color: aliceblue;
+    color: red;
+}
 #economiaa{
     display: flex;
+    background-color: rgb(143, 37, 120);
+}
+.economia a{
+    color: black;
+    border: solid 1px;
+    background-color: blue;
+}
+.entretenimento a{
+    color: aliceblue;
+    border: solid 1px;
+    background-color: brown;
 }
 #entretem{
     display: flex;
+    background-color: red;
+}
+.tech a{
+    color: chartreuse;
+    border: solid 1px yellow;
+    background-color: aliceblue;
 }
 #tecnologia{
     display: flex;
+    background-color: gold;
+}
+#botao{
+    background-color: aliceblue;
 }
 h5{
     color:red;
@@ -46,7 +76,6 @@ a{
 }
 
 a:hover{
-    color: blue;
-    border: solid 2px;
+    color: pink;
     border-radius: 12px;
 }
